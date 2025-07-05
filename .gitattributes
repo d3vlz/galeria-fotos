@@ -1,0 +1,60 @@
+# Forzar detección automática de texto y usar LF para consistencia multiplataforma
+* text=auto
+
+# Código fuente (frontend/backend)
+*.js      text eol=lf
+*.jsx     text eol=lf
+*.ts      text eol=lf
+*.tsx     text eol=lf
+
+# Configuración y JSONs
+*.json    text eol=lf
+*.jsonc   text eol=lf
+*.yml     text eol=lf
+*.yaml    text eol=lf
+*.env     text eol=lf
+
+# HTML y CSS
+*.html    text eol=lf
+*.css     text eol=lf
+
+# Markdown y documentación
+*.md      text eol=lf
+LICENSE   text eol=lf
+
+# Scripts y configuración avanzada
+*.sh      text eol=lf
+*.cjs     text eol=lf
+*.mjs     text eol=lf
+*.config.* text eol=lf
+
+# Archivos de log (opcional)
+*.log     text eol=lf
+
+# VSCode settings (opcional)
+.vscode/settings.json text eol=lf
+
+# Archivos de prueba
+*.test.js     text eol=lf
+*.spec.js     text eol=lf
+jest.config.* text eol=lf
+
+# Archivos SQL
+*.sql      text eol=lf
+
+# Archivos binarios (no tocar)
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.gif      binary
+*.ico      binary
+*.svg      binary
+*.mp4      binary
+*.ttf      binary
+*.woff     binary
+*.woff2    binary
+*.eot      binary
+*.zip      binary
+*.gz       binary
+*.pdf      binary
+*.cache    binary
